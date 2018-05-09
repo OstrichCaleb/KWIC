@@ -28,7 +28,7 @@ public class Main {
         for (int i = 0; i < manager.getNumLines(); i++) {
             String firstWord = manager.getWordFromLine(0, i);
             manager.deleteWordFromLine(0, i);
-            manager.addWordToLine(firstWord, i);
+            manager.addWordToLine(" " + firstWord, i);
         }
     }
 
