@@ -25,7 +25,7 @@ public class Main
 
         try
         {
-            fileInScanner = new Scanner(new File("kiwc.txt"));
+            fileInScanner = new Scanner(new File("kwic.txt"));
             while (fileInScanner.hasNextLine()){
                 linesFromFile.add(fileInScanner.nextLine());
             }
