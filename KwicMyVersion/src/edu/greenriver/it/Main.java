@@ -25,7 +25,7 @@ public class Main
 
         try
         {
-            fileInScanner = new Scanner(new File("kwic.txt"));
+            fileInScanner = new Scanner(new File("warAndPeace_modified.txt"));
             while (fileInScanner.hasNextLine()){
                 linesFromFile.add(fileInScanner.nextLine());
             }
